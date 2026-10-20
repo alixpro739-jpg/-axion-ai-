@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080a16">
+<meta name="description" content="AXION AI — فضای هوشمند برای ایده‌ها، یادگیری و خلاقیت">
+<title>AXION AI | هوش مصنوعی نسل جدید</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+:root{--bg:#080a16;--panel:#101326;--panel2:#151a32;--line:#292e50;--text:#f4f5ff;--muted:#a6abc9;--purple:#9b6cff;--blue:#4ca8ff;--cyan:#5cf0ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#21164a 0,transparent 34%),radial-gradient(ellipse at 5% 40%,#10234a 0,transparent 30%),var(--bg);color:var(--text);font-family:'Vazirmatn',Tahoma,sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.wrap{width:min(1120px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid #ffffff12;gap:16px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:.5px;font-size:1.25rem}.mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--purple),var(--blue));box-shadow:0 0 28px #7d62ff55;font-size:1.3rem}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:white}.navcta,.btn{border:0;border-radius:13px;padding:11px 18px;background:linear-gradient(110deg,var(--purple),#537bff);color:white;font-weight:800;cursor:pointer;box-shadow:0 8px 24px #7d62ff28;transition:.2s}.navcta:hover,.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}.hero{padding:86px 0 62px;display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 13px;border:1px solid #9b6cff55;background:#9b6cff13;border-radius:99px;color:#cdbaff;font-size:.84rem}.dot{width:7px;height:7px;background:#69f7c7;border-radius:50%;box-shadow:0 0 12px #69f7c7}.hero h1{font-size:clamp(2.5rem,5vw,4.5rem);line-height:1.2;margin:22px 0 18px;font-weight:900;letter-spacing:-1px}.gradient{background:linear-gradient(90deg,#b49aff,#62d7ff);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{color:var(--muted);font-size:1.08rem;max-width:610px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn.secondary{background:#ffffff08;border:1px solid var(--line);box-shadow:none}.hint{color:#777fa6;font-size:.83rem;margin-top:16px}.orb-wrap{min-height:350px;display:grid;place-items:center;position:relative}.orb{width:min(320px,75vw);aspect-ratio:1;border-radius:50%;position:relative;background:radial-gradient(circle at 35% 28%,#d5c9ff 0,#9b6cff 12%,#4448bb 34%,#111833 62%,#080a16 70%);box-shadow:inset -18px -20px 45px #050610,0 0 70px #8e6cff33;animation:float 5s ease-in-out infinite}.orb:before,.orb:after{content:"";position:absolute;inset:-22px;border:1px solid #a58bff66;border-radius:50%;transform:rotate(-24deg) scaleY(.35)}.orb:after{inset:-42px;transform:rotate(42deg) scaleY(.3);border-color:#4ca8ff55}.orbit{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--cyan);box-shadow:0 0 25px var(--cyan);top:22%;right:19%}.float-card{position:absolute;background:#11162bea;border:1px solid #ffffff1c;border-radius:15px;padding:12px 15px;backdrop-filter:blur(12px);box-shadow:0 15px 50px #0004;font-size:.86rem}.fc1{top:17%;left:0}.fc2{bottom:15%;right:0}.section{padding:58px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 35px}.eyebrow{color:var(--cyan);font-weight:700;font-size:.86rem}.section h2{font-size:clamp(1.8rem,3.5vw,2.7rem);line-height:1.35;margin:8px 0}.section-head p,.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature,.plan,.chatbox{border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,#151a32dd,#0d1022ee);padding:24px;box-shadow:0 16px 50px #0002}.feature .ico{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:#9b6cff1c;border:1px solid #9b6cff35;font-size:1.4rem}.feature h3{margin:14px 0 5px}.feature p{color:var(--muted);font-size:.92rem;margin:0}.chat-section{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:center}.chatbox{padding:0;overflow:hidden}.chat-head{padding:17px 20px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.online{font-size:.8rem;color:#71edbe}.messages{height:250px;overflow:auto;padding:18px;display:flex;flex-direction:column;gap:12px}.bubble{max-width:88%;padding:11px 14px;border-radius:15px;font-size:.91rem;white-space:pre-wrap}.bubble.ai{align-self:flex-start;background:#1b2140;border:1px solid #333b65}.bubble.user{align-self:flex-end;background:linear-gradient(110deg,#7654db,#426cdb)}.composer{padding:13px;display:flex;gap:9px;border-top:1px solid var(--line)}.composer input{flex:1;min-width:0;background:#090c1b;border:1px solid var(--line);border-radius:12px;color:white;padding:12px;outline:none}.composer input:focus{border-color:var(--purple)}.composer button{padding:0 18px}.notice{font-size:.77rem;color:#8e94b6;text-align:center;padding:0 14px 14px}.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.plan{position:relative}.plan.popular{border-color:#9b6cff;box-shadow:0 0 35px #805cff17}.tag{position:absolute;top:15px;left:15px;font-size:.73rem;background:#9b6cff22;color:#d9caff;border:1px solid #9b6cff55;border-radius:99px;padding:3px 9px}.plan h3{margin:0;font-size:1.25rem}.price{font-size:2rem;font-weight:900;margin:12px 0}.price small{font-size:.8rem;color:var(--muted);font-weight:400}.plan ul{padding-right:20px;color:var(--muted);min-height:125px}.plan li{margin:6px 0}.plan .btn{width:100%}.faq{max-width:800px;margin:auto}.faq details{border:1px solid var(--line);background:#10132699;border-radius:14px;margin:10px 0;padding:15px 18px}.faq summary{cursor:pointer;font-weight:700}.faq p{color:var(--muted);margin-bottom:0}.footer{border-top:1px solid #ffffff12;margin-top:55px;padding:28px 0;color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.toast{position:fixed;bottom:20px;left:20px;background:#171d36;border:1px solid #4e5788;padding:12px 16px;border-radius:12px;display:none;z-index:5;box-shadow:0 12px 40px #0006}.toast.show{display:block;animation:pop .25s ease}.modal{display:none;position:fixed;inset:0;background:#03040bd9;z-index:10;place-items:center;padding:20px}.modal.show{display:grid}.modal-card{width:min(450px,100%);background:#11162b;border:1px solid var(--line);border-radius:22px;padding:25px}.modal-card input{width:100%;margin:8px 0 14px;padding:12px;border:1px solid var(--line);background:#080b19;border-radius:10px;color:white}.close{float:left;background:none;border:0;color:#aab0d0;font-size:1.4rem;cursor:pointer}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}@keyframes pop{from{transform:translateY(8px);opacity:0}to{transform:translateY(0);opacity:1}}
+@media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding:55px 0 25px;gap:15px}.hero-copy{text-align:center}.hero p{margin:auto}.actions{justify-content:center}.orb-wrap{min-height:300px}.grid,.plans{grid-template-columns:1fr}.chat-section{grid-template-columns:1fr}.section{padding:40px 0}.feature{padding:20px}.footer{justify-content:center;text-align:center}.float-card.fc1{left:3%}.float-card.fc2{right:2%}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav class="nav">
+<a class="brand" href="#"><span class="mark">✦</span><span>AXION <span class="gradient">AI</span></span></a>
+<div class="navlinks"><a href="#features">امکانات</a><a href="#chat">گفت‌وگو</a><a href="#plans">پلن‌ها</a><a href="#faq">سؤالات</a></div>
+<button class="navcta" onclick="openModal()">ورود / ثبت‌نام</button>
+</nav>
+</header>
+<main>
+<section class="wrap hero">
+<div class="hero-copy">
+<span class="pill"><span class="dot"></span> آینده‌ی هوش مصنوعی، همین‌جاست</span>
+<h1>ایده‌هات رو با<br><span class="gradient">AXION AI</span> زنده کن.</h1>
+<p>یک فضای هوشمند برای پرسیدن، یادگرفتن و خلق‌کردن. با رابطی ساده و تجربه‌ای مدرن، قدم بعدی ایده‌هات رو بردار.</p>
+<div class="actions"><a class="btn" href="#chat">شروع گفت‌وگو ←</a><a class="btn secondary" href="#features">کشف امکانات</a></div>
+<div class="hint">نسخه 1.0 · طراحی واکنش‌گرا · فارسی و راست‌چین</div>
+</div>
+<div class="orb-wrap"><div class="orb"><span class="orbit"></span></div><div class="float-card fc1">✧ هوشمندتر فکر کن</div><div class="float-card fc2">◈ خلاقیت بدون مرز</div></div>
+</section>
+<section class="section wrap" id="features">
+<div class="section-head"><div class="eyebrow">قدرت در سادگی</div><h2>ابزارهایی برای <span class="gradient">فکرهای بزرگ</span></h2><p>تجربه‌ای مرتب و سریع که برای استفاده‌ی روزمره طراحی شده؛ از سؤال‌های ساده تا ایده‌های پیچیده.</p></div>
+<div class="grid">
+<article class="feature"><div class="ico">✦</div><h3>گفت‌وگوی هوشمند</h3><p>سؤالت رو بنویس و جواب‌ها رو در یک محیط ساده و خوانا دریافت کن. اتصال مدل واقعی با تنظیم API قابل فعال‌سازی است.</p></article>
+<article class="feature"><div class="ico">⌘</div><h3>یادگیری و ایده‌پردازی</h3><p>برای یادگیری موضوعات، پیدا کردن زاویه‌های تازه و مرتب‌کردن فکرها از AXION AI کمک بگیر.</p></article>
+<article class="feature"><div class="ico">◈</div><h3>تجربه‌ی مدرن</h3><p>طراحی تیره با جلوه‌های نئونی، نمایش مناسب روی موبایل و دسکتاپ و پیمایش روان بین بخش‌ها.</p></article>
+</div>
+</section>
+<section class="section wrap" id="chat">
+<div class="chat-section">
+<div><div class="eyebrow">یک گفت‌وگوی تازه</div><h2>از همین‌جا<br><span class="gradient">شروع کن.</span></h2><p class="muted">این نسخه، رابط گفت‌وگوی قابل‌تست دارد. تا زمانی که سرویس مدل هوش مصنوعی و کلید API امن وصل نشده باشد، پاسخ‌ها نمایشی هستند و به‌عنوان پاسخ واقعی هوش مصنوعی ارائه نمی‌شوند.</p></div>
+<div class="chatbox">
+<div class="chat-head"><strong>✦ AXION AI</strong><span class="online">● آماده‌ی آزمایش</span></div>
+<div class="messages" id="messages"><div class="bubble ai">سلام! 👋 به AXION AI خوش اومدی. می‌تونی رابط گفت‌وگو رو امتحان کنی. برای پاسخ هوشمند واقعی، باید API سمت سرور متصل بشه.</div></div>
+<form class="composer" id="chatForm"><input id="prompt" placeholder="پیامت رو اینجا بنویس..." autocomplete="off" maxlength="1000" required><button class="btn" type="submit" aria-label="ارسال">↑</button></form>
+<div class="notice">دموی رابط کاربری — پیام‌ها به سرویس خارجی ارسال نمی‌شوند.</div>
+</div>
+</div>
+</section>
+<section class="section wrap" id="plans">
+<div class="section-head"><div class="eyebrow">انتخاب با توست</div><h2>پلن مناسب خودت رو پیدا کن</h2><p>قیمت‌های زیر مطابق برنامه‌ی اولیه‌ی پروژه نمایش داده شده‌اند؛ خرید و پرداخت هنوز فعال نیست.</p></div>
+<div class="plans">
+<article class="plan"><h3>Normal</h3><div class="price">رایگان</div><ul><li>دسترسی پایه</li><li>مناسب شروع و آشنایی</li><li>بدون پرداخت</li></ul><button class="btn secondary" onclick="toast('پلن Normal در نسخه‌ی نمایشی انتخاب شد.')">انتخاب پلن</button></article>
+<article class="plan popular"><span class="tag">محبوب</span><h3>Pro</h3><div class="price">۱۰۰٬۰۰۰ <small>تومان / سه ماه</small></div><ul><li>امکانات بیشتر در طرح محصول</li><li>تجربه‌ی پیشرفته‌تر</li><li>تمدید سه‌ماهه</li></ul><button class="btn" onclick="toast('خرید هنوز فعال نیست؛ درگاه پرداخت باید راه‌اندازی شود.')">به‌زودی</button></article>
+<article class="plan"><h3>Ultra</h3><div class="price">در حال طراحی</div><ul><li>برای کاربران حرفه‌ای</li><li>جزئیات امکانات در حال نهایی‌شدن</li><li>اعلام در به‌روزرسانی آینده</li></ul><button class="btn secondary" onclick="toast('اطلاعات پلن Ultra به‌زودی اعلام می‌شود.')">به‌زودی</button></article>
+</div>
+</section>
+<section class="section wrap" id="faq">
+<div class="section-head"><div class="eyebrow">شفاف و روشن</div><h2>سؤالات پرتکرار</h2></div>
+<div class="faq">
+<details><summary>آیا چت هوش مصنوعی در حال حاضر واقعی است؟</summary><p>فعلاً این خروجی یک نسخه‌ی نمایشی فرانت‌اند است. برای پاسخ واقعی باید بک‌اند امن و سرویس مدل هوش مصنوعی متصل شود.</p></details>
+<details><summary>آیا ثبت‌نام و پرداخت کار می‌کند؟</summary><p>فرم ورود نمایشی است و خرید واقعی انجام نمی‌شود. احراز هویت، پایگاه داده و درگاه پرداخت باید در مرحله‌ی بک‌اند اضافه شوند.</p></details>
+<details><summary>چطور سایت را آنلاین کنم؟</summary><p>فایل ZIP را استخراج کن و فایل index.html را برای پیش‌نمایش باز کن. برای انتشار عمومی، فایل‌ها را روی سرویس میزبانی استاتیک یا سرور خودت بارگذاری کن.</p></details>
+</div>
+</section>
+</main>
+<footer class="wrap footer"><span>© ۲۰۲۶ AXION AI — ساخته‌شده برای ایده‌های بزرگ</span><span>نسخه 1.0 · رابط نمایشی</span></footer>
+<div class="toast" id="toast"></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="ورود به حساب"><div class="modal-card"><button class="close" onclick="closeModal()" aria-label="بستن">×</button><h2>ورود به AXION AI</h2><p class="muted">این فرم در نسخه‌ی نمایشی است و حساب واقعی ایجاد نمی‌کند.</p><label for="email">ایمیل</label><input id="email" type="email" placeholder="you@example.com"><label for="password">رمز عبور</label><input id="password" type="password" placeholder="رمز عبور"><button class="btn" style="width:100%" onclick="toast('ورود واقعی هنوز راه‌اندازی نشده است.');closeModal()">ادامه</button></div></div>
+<script>
+const messages=document.getElementById('messages'), form=document.getElementById('chatForm'), promptInput=document.getElementById('prompt');
+function addBubble(text,kind){const el=document.createElement('div');el.className='bubble '+kind;el.textContent=text;messages.appendChild(el);messages.scrollTop=messages.scrollHeight}
+form.addEventListener('submit',e=>{e.preventDefault();const text=promptInput.value.trim();if(!text)return;addBubble(text,'user');promptInput.value='';setTimeout(()=>addBubble('این نسخه فقط رابط کاربری AXION AI را نمایش می‌دهد. برای پاسخ‌گویی واقعی به این پیام، باید سرویس هوش مصنوعی از طریق بک‌اند امن متصل شود.','ai'),350)});
+function toast(text){const el=document.getElementById('toast');el.textContent=text;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),3200)}
+function openModal(){document.getElementById('modal').classList.add('show')}
+function closeModal(){document.getElementById('modal').classList.remove('show')}
+document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+</script>
+</body></html>
